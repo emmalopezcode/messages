@@ -1,0 +1,94 @@
+.like {
+  background-color: #4e8cd0;
+  padding: 6px;
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 3px;
+}
+
+.like-set {
+  padding: 5px;
+  border-radius: 2px;
+  background-color: white;
+}
+
+.container-cnv-detail {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.cnv-title {
+  color: #3f3d56;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.in-app {
+  padding-top: 10px !important;
+}
+
+.user-since {
+  color: white;
+  font-size: small;
+  padding: 0;
+}
+
+.likes {
+  float: right;
+  bottom: 10vh;
+  left: -2%;
+  background-color: #4e8cd0;
+  padding: 4px 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 999px;
+  color: white;
+}
+
+.like-area {
+  height: 40px;
+}
+
+.msg-other-prac {
+  border-radius: 30px;
+  padding: 0 20px;
+  padding-bottom: 10px;
+  border-bottom-left-radius: 0;
+  width: fit-content;
+  margin-top: 10px;
+  color: white;
+  border: solid 3px #4e8cd0;
+}
+
+.msg {
+  height: fit-content;
+}
+
+.like-btn {
+  color: #4e8cd0;
+  float: right;
+  padding: 5px;
+  margin-left: 6px;
+}
+
+.msg-input {
+  border: 0;
+  outline: none;
+  width: 80%;
+  margin-bottom: 200px;
+  padding: 5px 10px;
+  border-radius: 30px;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.post {
+  padding: 5px 10px;
+  background-color: #4e8cd0;
+  border: none;
+  color: white;
+}
+
+.post:focus {
+  outline: none;
+}

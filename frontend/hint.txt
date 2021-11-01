@@ -1,0 +1,10 @@
+if a property of a component is undefined, make sure you include it in the main.jsx
+
+if you are recieving a 'json syntax parse' error
+    make sure that you are expecting any body at all
+    and check the server side
+
+when you attach a new piece to the store -- what connects it to the hooks is having the same name -- it just knows...
+
+if you need the this.props.updateCnvs() -> basically do it before you pass it through   
+    -cnvOverview would be done in signIN

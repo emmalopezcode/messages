@@ -1,0 +1,82 @@
+.main-wrapper {
+  background-color: rgb(161, 177, 194);
+  height: 1200px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.logged-in {
+  color: black !important;
+}
+
+.nav {
+  background-color: transparent;
+  position: absolute;
+  z-index: 1;
+  background-blend-mode: darken;
+}
+
+.msg-user {
+  border-radius: 30px;
+  padding: 0 20px;
+  padding-bottom: 10px;
+  border-bottom-right-radius: 0;
+  background-color: white;
+}
+
+.msg-other {
+  border-radius: 30px;
+  padding: 0 20px;
+  padding-bottom: 10px;
+  border-bottom-left-radius: 0;
+  width: fit-content;
+  margin-top: 10px;
+  background-color: #4e8cd0;
+  color: white;
+}
+
+.overlay {
+  position: absolute;
+  top: 8vh;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #3f3d56;
+}
+
+.nav-btn {
+  all: unset;
+  border: 3px solid #4e8cd0;
+  background-color: #4e8cd0;
+  padding: 5px !important;
+  margin: 0 5px;
+  margin-bottom: 40px !important;
+  color: white !important;
+}
+
+.nav-btn:hover {
+  background-color: white;
+  color: #4e8cd0 !important;
+}
