@@ -1,0 +1,28 @@
+if you get a [property of 'status' of undefined] on server side
+    something happened during the query
+    how to fix:
+        ask yourself
+        is there things I am setting to null that arent allowed to be null?
+        and just generally am i following the necessary format of the sql table
+        if not set them before sending the set query
+        also just run the query on the mysql client to make sure you have proper syntaxd
+        if its about like make sure it is `like`
+
+if you get a [err_http_headers_sent]
+    it is because multiple responses tried to be sent
+    furthermore it is LIKELY because you do not have the EXACT endpoint represented in your code
+
+if you try to create a table and get an error at line one ''
+    it is because you should be using the back apostrophe `
+
+if you get a [propert of 'release' of undefined] on client side
+    you likely are not actually calling the function, make sure it is referenced in main.js
+
+if you are getting upsetti spaghetti about a very specialized vld if statement think of this:
+    what i want is for it to be --- other wise i will throw an error
+
+if when when you run a query with the runner and then the next one crashes the server or just doesnt respond
+    you likely have a hanging connection, make sure your callbacks are in place
+
+if you see a Object is possibly 'undefined' or 'null'
+    you need to put a ? before you chain methods onto it
